@@ -20,6 +20,12 @@
   "devDependencies": {
     "mocha": "~1.15.1",
     "supertest": "~0.8.1",
-    "mockery": "~1.4.0"
+    "mockery": "~1.4.0",
+    "blanket": "~1.1.5",
+    "travis-cov": "*",
+    "keen.io": ""
+  },
+  "config": { 
+    "travis-cov": { "threshold": 40 } 
   }
 }
