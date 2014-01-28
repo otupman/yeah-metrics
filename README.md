@@ -1,4 +1,4 @@
-# Yeah, Metrics!
+# Yeah, Metrics! [![Code Climate](https://codeclimate.com/github/centralway/yeah-metrics.png)](https://codeclimate.com/github/centralway/yeah-metrics)
 ## Quick & easy metrics
 
 ## Setup
