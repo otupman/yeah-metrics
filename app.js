@@ -156,3 +156,5 @@ app.get('/logout', function(req, res){
 http.createServer(app).listen(app.get('port') || process.env.port || 8080, function(){
   console.log('Express server listening on port ' + app.get('port') || process.env.port || 8080);
 });
+
+exports.app = app;

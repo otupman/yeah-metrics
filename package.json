@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "make test"
   },
   "engines": {
     "node": "0.8.x",
@@ -15,5 +16,10 @@
     "passport": "",
     "passport-google": "",
     "mongojs": ""
+  },
+  "devDependencies": {
+    "mocha": "~1.15.1",
+    "supertest": "~0.8.1",
+    "mockery": "~1.4.0"
   }
 }
